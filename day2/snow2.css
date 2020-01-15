@@ -1,0 +1,25 @@
+* {
+  background-color: grey;
+  color: white;
+  font-family: sans-serif;
+}
+
+rect.hat {
+  fill: black;
+}
+
+text {
+  fill: white;
+}
+
+g {
+  transition: all 5s ease-in-out;
+}
+
+g:hover {
+  transform: rotate3d(0, 1, 0, 90deg);
+}
+
+svg .side {
+  transform: rotate3d(1, 1, 1, 30deg);
+}

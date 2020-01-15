@@ -1,0 +1,66 @@
+p {
+  color: green;
+  size: 20px;
+  font-style: italic;
+}
+
+.header {
+  color: red;
+}
+
+p.special {
+  color: orange;
+}
+
+p#favorite {
+  color: blue
+}
+
+ol {
+  font-style: italic;
+}
+
+ol li {
+  color: red;
+}
+
+li#firstListItem {
+  color: black;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+h1:hover {
+  color: green;
+  margin: 70px
+}
+
+p::first-line {
+  font-size: 70px;
+}
+
+p::first-letter {
+  font-size: 100px;
+  color: black;
+}
+
+img {
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(3600deg); /* WebKit */
+  -moz-transform: rotate(3600deg); /* Mozilla */
+  -o-transform: rotate(3600deg); /* Opera */
+  -ms-transform: rotate(3600deg); /* Internet Explorer */
+  transform: rotate(3600deg); /* CSS3 */
+}

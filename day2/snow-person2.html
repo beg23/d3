@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snowman 2</title>
+    <link rel="stylesheet" href="snow2.css">
+  </head>
+  <body>
+    <h1>Snowman2 Header</h1>
+    <h2>Facts about my snowman</h2>
+    <ul>
+      <li>age: 1000 years old.</li>
+      <li>food: bears</li>
+      <li>hobby: sledding</li>
+    </ul>
+    <h2>Picture of my snowman</h2>
+    <p> This is is what my snow person looks like: </p>
+    <svg width = "600" height = "400">
+
+      <!-- snow man -->
+      <g transform = "translate(10, -10) rotate(45) scale(0.75)";>
+        <rect class="back" fill="grey" x = "-1000" y = "-1000" width = "10000" height = "10000"/>
+        <circle class="smallBody" fill="white" cx = "300" cy = "100" r = "40"/>
+        <circle class="medBody" fill="white" cx = "300" cy = "190" r = "55" />
+        <circle class="bigBody" fill="white" cx = "300" cy = "300" r = "70" />
+        <circle class="eye" fill="black" cx = "310" cy = "90" r = "5" />
+        <circle class="eye" fill="black" cx = "290" cy = "90" r = "5" />
+        <circle class="button" fill="black" cx = "300" cy = "170" r = "5" />
+        <circle class="button" fill="black" cx = "300" cy = "190" r = "5" />
+        <circle class="button" fill="black" cx = "300" cy = "210" r = "5" />
+        <path class="mouth" d="M 285 110 L 300 130 L 315 110"/>
+        <rect class="hat" x = "250" y = "50" width = "100" height = "10"/>
+        <rect class="hat" x = "275" y = "10" width = "50" height = "50"/>
+        <line stroke="brown" x1 = "355" x2 = "400" y1 = "190" y2 = "150" />
+        <line stroke="brown" x1 = "245" x2 = "200" y1 = "190" y2 = "150" />
+        <text x="95" y = "110">Happy New Year!</text>
+      </g>
+    </svg>
+    <p> How do you like my snow person?</p>
+  </body>
+</html>
